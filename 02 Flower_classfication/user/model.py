@@ -63,5 +63,5 @@ class AlexNet(nn.Module):
                 nn.init.constant_(m.bias, 0)    # 将偏置项初始化为0
 
 # 实例化模型并输出模型结构
-my_model = AlexNet()
-print(my_model)
+# my_model = AlexNet()
+# print(my_model)
