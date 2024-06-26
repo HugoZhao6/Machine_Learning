@@ -62,7 +62,6 @@ class AlexNet(nn.Module):
                 nn.init.normal_(m.weight, 0, 0.01)  # 使用正态分布初始化权重，均值为0，方差为0.01
                 nn.init.constant_(m.bias, 0)    # 将偏置项初始化为0
 
-
 # 实例化模型并输出模型结构
 my_model = AlexNet()
 print(my_model)
